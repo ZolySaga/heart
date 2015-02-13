@@ -3,10 +3,16 @@
 <head>
 	<title>Our Love Story</title>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		
-	</style>
 	<link rel="shortcut icon" href="./favicon2.ico">
-	<link href="css/default_dev.css" type="text/css" rel="stylesheet">
+	
+	<script type="text/javascript">
+		if ((navigator.userAgent.match(/(iPhone|iPod|Android|ios|iOS|iPad|Backerry|WebOS|Symbian|Windows Phone|Phone)/i))) 
+		{ 
+    		document.write('<link href="css/default.css" type="text/css" rel="stylesheet">')
+		}else{ 
+    		document.write('<link href="css/default_dev.css" type="text/css" rel="stylesheet">') ; 
+	} 
+	</script>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/garden.js"></script>
     <script type="text/javascript" src="js/functions_dev.js"></script>
@@ -18,7 +24,27 @@
 	<div id="mainDiv">
 		<div id="content">
 		
-			
+			<div id="code">
+                <span class="comments center">班扎古鲁白玛的沉默</span>
+                <span class="comments center">--扎西拉姆·多多</span>
+                <span class="comments">你见，或者不见我 </span>
+                <span class="comments">我就在那里 </span>
+                <span class="comments">不悲不喜 </span>
+                <span class="comments">你念，或者不念我 </span>
+                <span class="comments">情就在那里</span>
+                <span class="comments">不来不去</span>
+                <span class="comments">你爱，或者不爱我 </span>
+                <span class="comments">爱就在那里 </span>
+                <span class="comments">不增不减</span>
+                <span class="comments">你跟，或者不跟我 </span>
+                <span class="comments">我的手就在你手里 </span>
+                <span class="comments">不舍不弃 </span>
+                <span class="comments">来我的怀里 </span>
+                <span class="comments">或者 </span>
+                <span class="comments">让我住进你的心里 </span>
+                <span class="comments">默然 相爱 </span>
+                <span class="comments">寂静 欢喜</span>
+                </div>
 
 			<div id="loveHeart">
 				<canvas id="garden"></canvas>
@@ -37,9 +63,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div id="copyright">
-			Copyright © 2013 <a target='_blank' href='http://www.it-nan.com/'>IT男博客</a>
 		</div>
 	</div>
 <audio id="myaudio" loop>
